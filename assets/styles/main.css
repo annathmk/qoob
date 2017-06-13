@@ -1,0 +1,131 @@
+header{
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+}
+.navbar{
+    border: 0px; 
+    margin: 0px;
+    padding: 0px 90px;
+    background-color: white;   
+}
+section#home .txt{
+    position: relative;
+    top: calc( 50vh - 27px );
+    color: white;
+    opacity: 1;
+}
+.ul{
+    height: 1px;
+    width: 100px;
+    margin: auto;
+}
+
+
+section#home .txt p,h,button {
+    margin: 25px;
+    color: white;
+    opacity: 1;
+}
+section#home {
+    background-color: black;
+    
+}
+section#who-we-are {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size:cover;
+}
+section#who-we-are .abc {
+    padding: 200px 0;
+    color: white;
+}
+section#who-we-are .abc h2 {
+    margin: 0px;
+    padding: 10px;
+    color:white;
+}
+section#who-we-are .abc div {
+    background-color: white;
+}
+section#who-we-are .abc p {
+    margin: 20px 150px;
+    color:white;
+}
+section#who-we-are .abc button {
+    color: black; 
+    background-color:white; 
+}
+
+section#portfolio {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+section#portfolio h1 {
+    margin: 0px; 
+    padding: 15px 0px 0px 0px; 
+    color: black;
+}
+section#portfolio ul {
+    padding: 0px 0px 40px 0px;
+}
+
+section#portfolio ul li {
+    display: inline;
+    padding: 10px;
+    
+}
+section#portfolio ul li a {
+    background-color: white;
+    color: black;
+}
+section#portfolio .row .col-md-3 img {
+    height: 250px;
+}
+section#team .team-member img {
+    margin: 10px;
+    width: 100%
+}
+section#team .ul {
+       background-color: yellow; 
+       padding: 3px; 
+       width: 230px;
+}
+section#counters h2 {
+    margin: 0px; 
+    color:white; 
+    padding: 70px 0px 0px 0px;
+}
+section#counters .overlay {
+    padding: 100px;
+    color: white;
+}
+section#testimonials {
+    padding: 120px;
+}
+section#testimonials p {
+    padding: 20px;
+}
+section#testimonials h2 {
+    margin: 0px; 
+    padding: 70px 0px 10px 0px; 
+    color: black;
+}
+section#designs {
+    background-color: #fdfd11;
+}
+section#designs img {
+    padding: 60px;
+}
+section#last-news {
+
+}
+section#last-news {
+    
+}
+section#last-news img {
+    width: 300px;
+    height: 250px;
+}
