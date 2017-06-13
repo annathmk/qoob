@@ -9,8 +9,7 @@ header{
     background-color: white;   
 }
 section#home .txt{
-    position: relative;
-    top: calc( 50vh - 27px );
+    
     color: white;
     opacity: 1;
 }
@@ -19,17 +18,27 @@ section#home .txt{
     width: 100px;
     margin: auto;
 }
-
-
-section#home .txt p,h,button {
-    margin: 25px;
-    color: white;
-    opacity: 1;
+.padding-0 {
+    padding: 0 !important;
 }
+
 section#home {
     background-color: black;
     
 }
+section#home .txt {
+    padding: 100px;
+}
+h1{
+    padding: 30px 0px 10px 0px; 
+}
+section#home p,button {
+    margin: 30px;
+    color: white;
+    opacity: 1;
+    padding: 5px;
+}
+
 section#who-we-are {
     background-repeat: no-repeat;
     background-position: center;
@@ -62,14 +71,15 @@ section#portfolio {
     text-align: center;
     background-color: white;
     color: black;
+    padding: 50px;
 }
 section#portfolio h1 {
     margin: 0px; 
-    padding: 15px 0px 0px 0px; 
+    padding: 20px 0px 15px 0px; 
     color: black;
 }
 section#portfolio ul {
-    padding: 0px 0px 40px 0px;
+    padding: 25px 0px 40px 0px;
 }
 
 section#portfolio ul li {
@@ -82,7 +92,10 @@ section#portfolio ul li a {
     color: black;
 }
 section#portfolio .row .col-md-3 img {
-    height: 250px;
+    width: 100%;
+}
+section#team {
+    padding: 50px;
 }
 section#team .team-member img {
     margin: 10px;
@@ -93,24 +106,32 @@ section#team .ul {
        padding: 3px; 
        width: 230px;
 }
+section#team h1 {
+    margin: 0px; 
+    padding: 20px 0px 20px 0px; 
+    color: black;
+}
 section#counters h2 {
     margin: 0px; 
     color:white; 
-    padding: 70px 0px 0px 0px;
+    padding: 40px 0px 40px 0px;
+}
+section#counters .items {
+    padding: 50px;
 }
 section#counters .overlay {
     padding: 100px;
     color: white;
 }
 section#testimonials {
-    padding: 120px;
+    padding: 90px;
 }
 section#testimonials p {
     padding: 20px;
 }
 section#testimonials h2 {
     margin: 0px; 
-    padding: 70px 0px 10px 0px; 
+    padding: 30px 0px 10px 0px; 
     color: black;
 }
 section#designs {
@@ -120,12 +141,48 @@ section#designs img {
     padding: 60px;
 }
 section#last-news {
-
+padding: 100px;
 }
-section#last-news {
+section#last-news h2 {
+    padding: 10px 0px 0px 0px;
+}
+section#last-news .news {
+    padding: 20px 110px;
     
+}
+section#last-news .item {
+    float: left;
 }
 section#last-news img {
     width: 300px;
     height: 250px;
+}
+section#last-news .item div {
+    padding: 10px;
+}
+section#footer-menu {
+    background-color: #666;
+    color: white;
+}
+section#footer-menu ul {
+    text-align: center;
+    padding: 30px;
+}
+section#footer-menu li {
+    display: inline;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+section#footer-menu li a {
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+footer i {
+    background-color: #666;
+    color: white;
+    padding: 5px;
 }
